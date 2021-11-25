@@ -9,7 +9,8 @@
  *  #7. intro
  *  #8. about
  *  #9. resume
- *  #10. contact
+ *  #10. certificates
+ *  #11. contact
  ------------------------------------------------------------------------------------------------------------------------------------------------------------------
  */
 
@@ -18,6 +19,7 @@
 *==========
  * #1. base styles
  */
+
  html {
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
@@ -175,7 +177,7 @@ button {
 		  /* Handle on hover */
 		  ::-webkit-scrollbar-thumb:hover {
 			background: #f14040; 
-		  }
+ }
 
 html {
 	font-size: 10px;
@@ -564,7 +566,8 @@ header .row {
 	text-transform: uppercase;
 	letter-spacing: .1rem;
 }
-.intro-content .button:hover, .intro-content .button:focus {
+.intro-content .button:hover,
+.intro-content .button:focus {
 	border-color: #cc005f;
 }
 .intro-content .button::after {
@@ -686,7 +689,7 @@ header .row {
 }
 
 /** 
- * ========
+ * ==========
  * #9. resume
  */
 
@@ -779,13 +782,19 @@ header .row {
 	left: 0;
 	bottom: 0;
 }
+
+/** 
+ * ====================
+ * #10. certificates
+ */
+
 .cert{
 	text-decoration: none;
 }
 
 /** 
  * ====================
- * #10. contact - (_layout.scss)
+ * #11. contact
  */
 
  #contact {
@@ -889,3 +898,5 @@ header .row {
 	  70% { top: -0.3em; }
 	  100% { top: 0; }
   }
+
+  /** Thank You 😄 **/
