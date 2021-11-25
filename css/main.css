@@ -1,6 +1,6 @@
 /**
  ------------------------------------------------------------------------------------------------------------------------------------------------------------------
- *  #1. base style overrides
+ *  #1. base styles
  *  #2. typography
  *  #3. buttons 
  *  #4. skillbars
@@ -372,7 +372,7 @@ a.glow-on-hover	 {
     margin-bottom: 13px;
 }
 #figma-bar{
-    animation: figma-fill 3s forwards;
+    animation: figma-fill 5s forwards;
 	background-color: #2659ff;
 }
 @keyframes figma-fill{
@@ -381,7 +381,7 @@ a.glow-on-hover	 {
     }
 }
 #webflow-bar{
-    animation: webflow-fill 3s forwards;
+    animation: webflow-fill 5s forwards;
 	background-color: #33adff;
 }
 @keyframes webflow-fill{
@@ -390,7 +390,7 @@ a.glow-on-hover	 {
     }
 }
 #sixsigma-bar{
-    animation: sixsigma-fill 3s forwards;
+    animation: sixsigma-fill 5s forwards;
 	background-color: red;
 }
 @keyframes sixsigma-fill {
@@ -399,7 +399,7 @@ a.glow-on-hover	 {
     }
 }
 #html-bar{
-    animation: html-fill 3s forwards;
+    animation: html-fill 5s forwards;
 	background-color: orange;
 }
 @keyframes html-fill{
@@ -408,7 +408,7 @@ a.glow-on-hover	 {
     }
 } 
 #css-bar{
-    animation: css-fill 3s forwards;
+    animation: css-fill 5s forwards;
 	background-color: yellow;
 }
 @keyframes css-fill{
